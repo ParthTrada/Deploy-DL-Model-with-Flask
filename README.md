@@ -1,5 +1,5 @@
 # Deploy-DL-Model-with-Flask
-Build a Deep Neural Network that predicts Airbnb prices in NYC and a REST API that predicts prices based on the model( using Flask and gunicorn).At the last,deploy the model to production on Google App Engine.
+Build a Deep Neural Network that predicts Airbnb prices in NYC and a REST API that predicts prices based on the model( using Flask and Gunicorn). At the last, deploy the model to production on Google App Engine.
 
 # Quick start
 
@@ -39,6 +39,3 @@ curl -d '{"neighbourhood_group": "Brooklyn", "latitude": 40.64749, "longitude": 
 ```bash
 gcloud app deploy
 ```
-
-[Read the complete guide](https://www.curiousily.com/posts/deploy-keras-deep-learning-project-to-production-with-flask/)
-
